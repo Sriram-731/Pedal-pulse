@@ -1,0 +1,42 @@
+{
+  "expo": {
+    "name": "pedal-pulse",
+    "slug": "pedal-pulse",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/brand-icon.png",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/brand-splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#121212"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/brand-adaptive-icon.png",
+        "backgroundColor": "#121212"
+      },
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false,
+      "package": "com.sriram731.pedalpulse",
+      "googleServicesFile": "./google-services.json"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "@maplibre/maplibre-react-native",
+      "@react-native-community/datetimepicker"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "7ec0afbf-1f46-42a7-993e-76d918806960"
+      }
+    },
+    "owner": "sriram731"
+  }
+}
